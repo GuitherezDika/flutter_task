@@ -8,6 +8,7 @@
 | Sabtu  | Mini project: UI Home Shopee sederhana (tanpa interaksi)  | 3 jam   | Halaman beranda e-commerce    |
 | Minggu | Review + Refactor kode minggu ini                         | 1 jam   | Kode lebih rapi               |
 
+-->> https://docs.flutter.dev/cookbook#navigation
 
 ============================
 minggu 2
