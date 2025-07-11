@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_task/screens/detail_data_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -19,7 +20,11 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: EdgeInsets.all(16),
             child: Column(
               children: [
-                Text('ok')
+                Text('ok'),
+                ElevatedButton(onPressed: () {
+                  Navigator.push(context, 
+                  MaterialPageRoute(builder: (context) => DetailDataScreen()));
+                }, child: Text('go detail'))
               ],
             ),
           )
